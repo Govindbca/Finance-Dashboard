@@ -2,10 +2,13 @@
   "name": "finance-dashboard",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://Govindbca.github.io/Finance-Dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
@@ -15,6 +18,7 @@
     "recharts": "^2.6.2"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^4.0.0"
   }
 }
