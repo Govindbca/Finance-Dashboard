@@ -1,3 +1,4 @@
+
 # 💰 Finance Dashboard UI
 
 A modern, interactive finance dashboard built with React, Tailwind CSS, and Recharts for tracking income, expenses, and financial insights.
@@ -294,3 +295,6 @@ This dashboard demonstrates:
 ---
 
 **Built for the Zorvyn Finance Dashboard UI Assignment ✨**
+=======
+# Finance-Dashboard
+
